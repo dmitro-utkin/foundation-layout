@@ -1,0 +1,125 @@
+.inbox {
+  background-color: #fcf0e366;
+  padding: 0 15px 48px 15px;
+  display: flex;
+  flex-direction: column;
+
+  @include for-large-up {
+    flex-direction: row;
+    padding-bottom: 101px;
+  }
+
+  &__figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  &__figure-wheel {
+    max-width: 100%;
+    padding: 50px 0 32px 0;
+
+    @include for-large-up {
+      padding: 142px 164px 15px 178px;
+    }
+  }
+
+  &__figure-description {
+    display: none;
+
+    @include for-large-up {
+      display: block;
+      font-size: 14px;
+      line-height: 22px;
+      color: #2b292e99;
+    }
+  }
+
+  &__content {
+    @include for-large-up {
+      max-width: 519px;
+      margin-top: 115px;
+    }
+  }
+
+  &__subtitle {
+    color: #f1592b;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0 0 17px 0;
+
+    @include for-large-up {
+      margin-left: 28px;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.357px;
+    margin: 0 0 18px 0;
+
+    @include for-large-up {
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      margin: 30px 0 24px 28px;
+    }
+  }
+
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 30px 0;
+
+    @include for-large-up {
+      margin: 0 0 44px 28px;
+      max-width: 461px;
+    }
+  }
+}
+.review {
+  background-color: #fff;
+  border-bottom: 4px solid #0185d0;
+
+  &__message {
+    padding: 30px 20px 26px 20px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+
+    @include for-large-up {
+      padding: 30px 30px 26px 30px;
+    }
+  }
+
+  &__worker {
+    display: flex;
+  }
+
+  &__worker-avatar {
+    height: 40px;
+    margin: 2px 11px 18px 20px;
+
+    @include for-large-up {
+      margin: 2px 11px 18px 29px;
+    }
+  }
+
+  &__about-worker {
+    max-width: 199px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    padding-bottom: 28px;
+
+    @include for-large-up {
+      max-width: 100%;
+    }
+  }
+
+  &__about-worker-profession {
+    margin: 0;
+  }
+}

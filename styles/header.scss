@@ -8,8 +8,10 @@
 
   @include for-large-up {
     width: 1140px;
-    height: 62px;
+    height: auto;
     margin: auto;
+    margin-top: 39px;
+    padding-left: 4px;
     display: flex;
     font-size: 18px;
     background-color: #f3c6bd;
@@ -22,6 +24,7 @@
       display: block;
     }
   }
+
   &__menu-button {
     width: 58px;
     border: none;
@@ -37,7 +40,7 @@
   &__menu-icon {
     width: 18px;
     height: 13px;
-    background-image: url("images/icon_hamburger.png");
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     display: inline-block;
   }
 }
@@ -46,72 +49,30 @@
 
   @include for-large-up {
     display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 56px;
-  }
+    margin: 7px 75px 0 auto;
+  } 
 
   &__item {
     color: #2b292d;
     text-decoration: none;
+    font-size: 18px;
     line-height: 25px;
-    margin-right: 50px;
+    margin-right: 48px;
   }
+
   &__item_selected {
     font-weight: 700;
   }
+
   &__item:last-child {
     margin-right: 0;
   }
+
   &__arrow {
-    margin-bottom: 2px;
-    margin-left: 3px;
-  }
-}
-
-.logo {
-  display: flex;
-
-  &__image {
-    width: 48px;
-    height: 48px;
-    margin-right: 13px;
-
-    @include for-large-up {
-      width: 60px;
-      height: 60px;
-      margin-right: 15px;
-    }
-  }
-  &__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  &__name {
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: 700;
-  }
-  &__description {
-    display: none;
-    
-    @include for-large-up {
-      height: 60px;
-      margin-right: 15px;
-      display: block;
-      line-height: 25px;
-      color: #2b292d;
-      opacity: 0.6;
-    }
-  }
-}
-
-.top-section {
-  background-color: #f3c6bd;
-
-  @include for-large-up {
-    background-color: #f3c6bd;
-    padding-top: 39px;
+    display: inline-block;
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+    width: 8px;
+    height: 5px;
+    margin-left: 11px;
   }
 }

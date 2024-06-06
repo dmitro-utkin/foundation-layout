@@ -1,0 +1,131 @@
+.communicate {
+  padding: 50px 15px;
+
+  @include for-large-up {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  &__content {
+    @include for-large-up {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 110px;
+    }
+  }
+
+  &__header {
+    @include for-large-up {
+      margin-top: 13px;
+      max-width: 461px;
+    }
+  }
+
+  &__subtitle {
+    color: #0189d1;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0 0 17px 0;
+
+    @include for-large-up {
+      margin: 0 0 24px 2px;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.357px;
+    margin: 0 0 18px 0;
+
+    @include for-large-up {
+      margin-bottom: 30px;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 30px 2px;
+
+    @include for-large-up {
+      margin-bottom: 39px;
+    }
+  }
+
+  &__button {
+    margin-left: 4px;
+  }
+
+  &__figure {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+
+    @include for-large-up {
+      margin: 0 63px 27px 0;
+    }
+  }
+
+  &__figure-image {
+    max-width: 100%;
+    padding: 40px 0 17px 0;
+
+    @include for-large-up {
+      padding: 0 0 15px 0;
+    }
+  }
+
+  &__figure-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #2b292e99;
+  }
+
+  &__line-mobile {
+    display: block;
+    width: 150px;
+    height: 1px;
+    background-color: #0000001a;
+  }
+
+  &__advices {
+    @include for-large-up {
+      display: flex;
+
+      @include for-large-up {
+        margin-bottom: 110px;
+
+        :last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  &__advice {
+    margin-top: 33px;
+    font-size: 18px;
+    line-height: 26px;
+
+    @include for-large-up {
+      margin: 23px 30px 0 0;
+      flex: 1;
+    }
+  }
+  
+  &__advice-text {
+    margin-bottom: 8px;
+  }
+
+  &__advice-link {
+    font-weight: 700;
+    color: #3142c6;
+  }
+}
