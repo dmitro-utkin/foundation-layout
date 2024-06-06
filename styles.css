@@ -53,6 +53,7 @@
   background-color: #3040c4;
   color: #fff;
   font-weight: 700;
+  font-size: 18px;
   border-radius: 2px;
   border: none;
 }
@@ -837,7 +838,7 @@
     margin-bottom: 39px;
   }
 }
-.communicate__button {
+.communicate-button {
   margin-left: 4px;
 }
 .communicate__figure {
@@ -900,6 +901,7 @@
 .communicate__advice-link {
   font-weight: 700;
   color: #3142c6;
+  text-decoration: none;
 }
 
 * {

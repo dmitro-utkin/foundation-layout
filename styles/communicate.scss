@@ -59,7 +59,7 @@
     }
   }
 
-  &__button {
+  &-button {
     margin-left: 4px;
   }
 
@@ -127,5 +127,6 @@
   &__advice-link {
     font-weight: 700;
     color: #3142c6;
+    text-decoration: none;
   }
 }
