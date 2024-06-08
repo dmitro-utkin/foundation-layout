@@ -6,11 +6,18 @@
     width: 1140px;
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 106px;
+    padding: 22px 0 97px;
+    flex-direction: row;
+  }
+
+  &_down {
+    padding-bottom: 39px;
+
+    @include for-large-up {
+      padding: 35px 0 67px 0;
+    }
   }
 
   &__row {
@@ -23,14 +30,13 @@
   }
 
   &__item {
-    height: 94px;
-    width: 107px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    height: 94px;
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
 
     &:last-child {
       border-right: none;
@@ -44,5 +50,9 @@
   &__logo {
     filter: brightness(0);
     max-width: 80%;
+
+    @include for-large-up {
+      max-width: 100%;
+    }
   }
 }
