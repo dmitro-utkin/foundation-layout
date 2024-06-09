@@ -13,7 +13,6 @@
     margin-top: 39px;
     padding-left: 4px;
     display: flex;
-    font-size: 18px;
     background-color: #f3c6bd;
   }
 
@@ -31,12 +30,13 @@
     border-left: 1px solid #00000026;
     height: 100%;
     margin-left: auto;
-    background: transparent;
+    background-color: transparent;
 
     @include for-large-up {
       display: none;
     }
   }
+
   &__menu-icon {
     width: 18px;
     height: 13px;
@@ -44,6 +44,7 @@
     display: inline-block;
   }
 }
+
 .navigation {
   display: none;
 
@@ -53,19 +54,19 @@
   }
 
   &__item {
-    color: #2b292d;
     text-decoration: none;
-    font-size: 18px;
     line-height: 25px;
+    font-size: 18px;
     margin-right: 48px;
-  }
+    color: #2b292d;
 
-  &__item_selected {
-    font-weight: 700;
-  }
+    &:last-child {
+      margin-right: 0;
+    }
 
-  &__item:last-child {
-    margin-right: 0;
+    &_selected {
+      font-weight: 700;
+    }
   }
 
   &__arrow {

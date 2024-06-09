@@ -1,15 +1,20 @@
 .logo {
   display: flex;
 }
+@media screen and (min-width: 1400px) {
+  .logo {
+    padding: 2px 0 0 10px;
+  }
+}
 .logo__image {
-  width: 48px;
   height: 48px;
-  margin-right: 13px;
+  width: 48px;
+  margin-right: 15px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
-    width: 60px;
     height: 60px;
+    width: 60px;
     margin-right: 15px;
   }
 }
@@ -28,13 +33,43 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
-    height: 60px;
-    margin-right: 15px;
     display: block;
+    font-size: 18px;
     line-height: 25px;
-    color: #2b292d;
     opacity: 0.6;
   }
+}
+@media screen and (max-width: 1399px) {
+  .logo_footer {
+    display: none;
+  }
+}
+
+.logo-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1400px) {
+  .logo-vertical {
+    display: none;
+  }
+}
+.logo-vertical__image {
+  width: 60px;
+  height: 60px;
+}
+.logo-vertical__name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.logo-vertical__description {
+  color: rgba(43, 41, 45, 0.6);
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .action-button {
@@ -472,7 +507,6 @@
     margin-top: 39px;
     padding-left: 4px;
     display: flex;
-    font-size: 18px;
     background-color: #f3c6bd;
   }
 }
@@ -490,7 +524,7 @@
   border-left: 1px solid rgba(0, 0, 0, 0.1490196078);
   height: 100%;
   margin-left: auto;
-  background: transparent;
+  background-color: transparent;
 }
 @media screen and (min-width: 1400px) {
   .header__menu-button {
@@ -500,7 +534,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
   display: inline-block;
 }
 
@@ -514,21 +548,21 @@
   }
 }
 .navigation__item {
-  color: #2b292d;
   text-decoration: none;
-  font-size: 18px;
   line-height: 25px;
+  font-size: 18px;
   margin-right: 48px;
-}
-.navigation__item_selected {
-  font-weight: 700;
+  color: #2b292d;
 }
 .navigation__item:last-child {
   margin-right: 0;
 }
+.navigation__item_selected {
+  font-weight: 700;
+}
 .navigation__arrow {
   display: inline-block;
-  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   width: 8px;
   height: 5px;
   margin-left: 11px;
@@ -1024,12 +1058,9 @@
 .user-card {
   margin: 15px 0 0 0;
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%),
-    #fff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%), #fff;
   background-blend-mode: overlay, normal;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.0509803922),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843),
-    0px 1px 0px 0px rgba(255, 255, 255, 0.1019607843) inset;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.0509803922), 0px 1px 3px 0px rgba(0, 0, 0, 0.1019607843), 0px 1px 0px 0px rgba(255, 255, 255, 0.1019607843) inset;
   cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
@@ -1193,23 +1224,19 @@
   text-decoration: none;
   color: #2b292d;
 }
-.vacancy:hover,
-.vacancy:active {
+.vacancy:hover, .vacancy:active {
   background: #3141c5;
   box-shadow: 0px 11px 55px 0px rgba(0, 0, 0, 0.07), 0px 13px 18px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
 }
-.vacancy:hover .vacancy__location,
-.vacancy:active .vacancy__location {
+.vacancy:hover .vacancy__location, .vacancy:active .vacancy__location {
   opacity: 1;
 }
-.vacancy:hover .vacancy__arrow-container,
-.vacancy:active .vacancy__arrow-container {
+.vacancy:hover .vacancy__arrow-container, .vacancy:active .vacancy__arrow-container {
   background-color: transparent;
 }
-.vacancy:hover .icon-arrow_right,
-.vacancy:active .icon-arrow_right {
-  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png');
+.vacancy:hover .icon-arrow_right, .vacancy:active .icon-arrow_right {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
 }
 @media screen and (min-width: 1400px) {
   .vacancy {
@@ -1356,7 +1383,7 @@
 }
 
 html {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #2b292d;
 }
