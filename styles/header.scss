@@ -8,7 +8,7 @@
 
   @include for-large-up {
     width: 1140px;
-    height: auto;
+    max-height: 62pxh;
     margin: auto;
     margin-top: 39px;
     padding-left: 4px;
@@ -54,10 +54,10 @@
   }
 
   &__item {
-    text-decoration: none;
+    margin-right: 48px;
     line-height: 25px;
     font-size: 18px;
-    margin-right: 48px;
+    text-decoration: none;
     color: #2b292d;
 
     &:last-child {

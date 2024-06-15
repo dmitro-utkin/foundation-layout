@@ -3,11 +3,10 @@
 
   @include for-large-up {
     position: relative;
-    width: 1140px;
-    margin: auto;
-    margin-top: 84px;
+    max-width: 1245px;
+    // margin: auto;
+    margin: 76px 25px 77px 130px;
     display: flex;
-    padding-bottom: 77px;
   }
 
   &__content {
@@ -46,6 +45,7 @@
 
     @include for-large-up {
       margin-top: 34px;
+      padding: 0;
       max-width: 456px;
       height: 102px;
       z-index: 1;
@@ -57,7 +57,10 @@
     padding-top: 32px;
 
     @include for-large-up {
+      max-width: 328px;
+      max-height: 48;
       margin-top: 58px;
+      padding: 0;
       display: flex;
     }
   }
@@ -93,12 +96,9 @@
 
     @include for-large-up {
       margin-left: auto;
+      margin-bottom: 0;
       width: 796px;
       height: 448px;
-      position: relative;
-      right: -105px;
-      top: 0;
     }
   }
-
 }

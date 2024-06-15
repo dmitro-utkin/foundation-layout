@@ -1,5 +1,5 @@
 .order {
-  padding: 0 15px;
+  padding: 50px 15px;
   background-color: #f4f5f7;
   text-align: center;
 
@@ -9,19 +9,10 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-  }
-
-  &__details {
-    max-width: auto;
-
-    @include for-large-up {
-      max-width: 555px;
-    }
-  }
+  }  
 
   &__illustration {
-    max-width: 100%;
-    padding: 50px 45px 40px;
+    max-width: 200px;
 
     @include for-large-up {
       margin-right: 122px;
@@ -31,32 +22,28 @@
 
   &__title {
     margin: 0;
+    margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
 
     @include for-large-up {
-      height: 48px;
+      // height: 48px;
     }
   }
 
   &__text {
     margin: 0;
-    padding-top: 18px;
+    margin-top: 18px;
     font-size: 22px;
     line-height: 32px;
     text-align: left;
-
-    @include for-large-up {
-// height: 64px;
-    }
   }
 
   &__form {
-    padding-top: 79px;
+    margin-top: 79px;
     
-
     @include for-large-up {
       padding-top: 26px;
       display: flex;
@@ -70,7 +57,7 @@
     border: 1px solid #2b292d33;
     border-radius: 2px;
     font-size: 18px;
-    line-height: 14hpx;
+    line-height: 14px;
 
     @include for-large-up {
       margin-top: 0;
@@ -99,7 +86,7 @@
 
   &__terms {
     margin: 0;
-    padding-top: 10px;
+    margin-top: 10px;
     color: #2b292e99;
     font-size: 14px;
     line-height: 22px;
