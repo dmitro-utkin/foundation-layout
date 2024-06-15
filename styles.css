@@ -9,7 +9,7 @@
 .logo__image {
   height: 48px;
   width: 48px;
-  margin-right: 8px 13px 8px 15px;
+  margin-right: 13px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
