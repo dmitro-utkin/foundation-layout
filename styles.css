@@ -1126,6 +1126,7 @@
 @media screen and (min-width: 1400px) {
   .feedback__worker {
     padding-bottom: 38px;
+    text-align: center;
   }
 }
 .feedback__worker-profession {
@@ -1294,6 +1295,14 @@
   .vacancy__arrow-container {
     background-color: transparent;
   }
+}
+
+.icon-arrow_right {
+  display: block;
+  width: 7px;
+  height: 12px;
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png");
+  background-repeat: no-repeat;
 }
 
 .order {
