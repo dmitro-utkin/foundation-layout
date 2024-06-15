@@ -1,5 +1,5 @@
 .order {
-  padding: 50px 15px;
+  padding: 0 15px;
   background-color: #f4f5f7;
   text-align: center;
 
@@ -10,6 +10,16 @@
     align-items: center;
     text-align: left;
   }
+  &__illustration {
+    max-width: 200px;
+    max-height: 220px;
+    margin-top: 50px;
+
+    @include for-large-up {
+      margin-right: 122px;
+      padding: 0 45px;
+    }
+  }
 
   &__details {
     max-width: auto;
@@ -19,15 +29,6 @@
     }
   }
 
-  &__illustration {
-    max-width: 100%;
-    padding: 50px 45px 40px;
-
-    @include for-large-up {
-      margin-right: 122px;
-      padding: 0 45px;
-    }
-  }
 
   &__title {
     margin: 0;
@@ -51,7 +52,7 @@
   }
 
   &__form {
-    padding-top: 79px;
+    margin-top: 79px;
 
     @include for-large-up {
       padding-top: 26px;
@@ -94,8 +95,8 @@
   }
 
   &__terms {
-    margin: 0;
     margin-top: 10px;
+    padding-bottom: 50px;
     color: #2b292e99;
     font-size: 14px;
     line-height: 22px;
