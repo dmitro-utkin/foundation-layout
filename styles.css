@@ -414,6 +414,10 @@
   margin: 0;
   margin-top: 18px;
 }
+.nav-links__link {
+  text-decoration: none;
+  color: rgba(43, 41, 46, 0.6);
+}
 
 .footer-links {
   margin-left: 15px;
