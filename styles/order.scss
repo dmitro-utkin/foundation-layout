@@ -15,9 +15,12 @@
   }
 
   &__illustration {
+    max-width: 100%;
+    padding: 50px 60px 40px 60px;
+
     @include for-large-up {
-      max-width: 269px;
       margin-right: 121px;
+      max-width: 269px;
     }
   }
 
