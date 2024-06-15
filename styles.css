@@ -9,6 +9,7 @@
 .logo__image {
   height: 48px;
   width: 48px;
+  margin-right: 8px 13px 8px 15px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
@@ -512,8 +513,8 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .header {
-    width: 1140px;
-    max-height: 62pxh;
+    max-width: 1140px;
+    max-height: 62px;
     margin: auto;
     margin-top: 39px;
     padding-left: 4px;
@@ -544,8 +545,7 @@ img {
 }
 .header__menu-icon {
   width: 18px;
-  height: 13px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
+  height: 14px;
   display: inline-block;
 }
 
@@ -678,6 +678,7 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .headline__banner {
+    margin-top: 8px;
     margin-left: auto;
     margin-bottom: 0;
     width: 796px;

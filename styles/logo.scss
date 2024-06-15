@@ -8,6 +8,7 @@
   &__image {
     height: 48px;
     width: 48px;
+    margin-right: 8px 13px 8px 15px;
     
     @include for-large-up {
       margin-right: 15px;

@@ -95,6 +95,7 @@
     width: 100%;
 
     @include for-large-up {
+      margin-top: 8px;
       margin-left: auto;
       margin-bottom: 0;
       width: 796px;
