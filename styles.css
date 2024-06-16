@@ -6,7 +6,6 @@
   .logo {
     max-height: 60px;
     margin: 0;
-    margin-top: 44px;
   }
 }
 .logo__image {
@@ -57,6 +56,12 @@
 @media screen and (max-width: 1399px) {
   .logo_footer {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .logo-footer {
+    margin-top: 41px;
   }
 }
 
@@ -412,13 +417,17 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
+    margin: 60px 226px 47px 126px;
     flex-direction: row;
   }
 }
 .additional-navigation__column_company {
   margin-top: 25px;
+}
+@media screen and (min-width: 1400px) {
+  .additional-navigation__column_company {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 1400px) {
   .additional-navigation__column {
@@ -436,6 +445,11 @@ img {
   line-height: 29px;
   color: #2b292d;
   margin: 0;
+}
+@media screen and (min-width: 1400px) {
+  .nav-links__title {
+    margin-top: 41px;
+  }
 }
 .nav-links__list {
   list-style-type: none;
@@ -502,7 +516,7 @@ img {
   .social-links__item {
     width: 21px;
     height: 16px;
-    margin: 6px 0 0 12px;
+    margin: 0 0 0 12px;
   }
 }
 
