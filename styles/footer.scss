@@ -37,7 +37,7 @@
 }
 
 .about-company {
-  margin-top: 44px;
+  margin-top: 26px;
 }
 
 .footer-navigation {
@@ -54,7 +54,7 @@
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 32px 6px 0 15px;
   display: flex;
   justify-content: center;
 
@@ -65,14 +65,14 @@
   }
 
   &__item {
-    margin-right: 10px;
+    margin-right: 9px;
   }
 }
 
 .additional-navigation {
   display: flex;
   flex-direction: column;
-  margin: 0 15px;
+  margin: 30px 15px 0 15px;
 
   @include for-large-up {
     margin-top: 60px;
@@ -81,7 +81,10 @@
   }
 
   &__column {
-    margin-top: 30px;
+
+    &_company {
+      margin-top: 25px;
+    }
 
     @include for-large-up {
       margin-right: 29px;
@@ -96,7 +99,7 @@
   &__title {
     font-weight: 700;
     font-size: 22px;
-    line-height: 28px;
+    line-height: 29px;
     color: #2b292d;
     margin: 0;
   }
@@ -106,7 +109,11 @@
     color: rgba(43, 41, 45, 0.6);
     padding: 0;
     margin: 0;
-    margin-top: 18px;
+    margin-top: 17px;
+  }
+
+  &__item {
+    margin-bottom: 6px;
   }
 
   &__link {
@@ -131,7 +138,7 @@
 
 .terms {
   font-size: 14px;
-  margin: 30px 0;
+  margin: 25px 0 0 0;
 
   @include for-large-up {
     line-height: 50px;
@@ -141,13 +148,13 @@
     text-decoration: none;
     color: #2b292d;
     opacity: 0.6;
-    margin-right: 22px;
+    margin-right: 15px;
   }
 }
 
 .social-links {
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-top: 33px;
 
   @include for-large-up {
     margin-left: auto;
@@ -155,7 +162,7 @@
   }
 
   &__item {
-    margin-right: 21px;
+    margin-right: 14px;
 
     @include for-large-up {
       margin: 0 0 0 20px;
@@ -163,32 +170,3 @@
   }
 }
 
-/* Footer Mobile */
-
-.logo-vertical {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @include for-large-up {
-    display: none;
-  }
-
-  &__image {
-    width: 60px;
-    height: 60px;
-  }
-  &__name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    margin-top: 20px;
-  }
-  &__description {
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: rgba(43, 41, 45, 0.6);
-  }
-}
