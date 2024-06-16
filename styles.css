@@ -1,5 +1,6 @@
 .logo {
   display: flex;
+  margin-bottom: 2px;
 }
 @media screen and (min-width: 1400px) {
   .logo {
@@ -8,8 +9,8 @@
 }
 .logo__image {
   height: 48px;
-  width: 48px;
-  margin-right: 15px;
+  width: 53px;
+  margin-right: 8px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
@@ -585,7 +586,7 @@ img {
   }
 }
 .headline__content {
-  margin: 35px 15px 33px 15px;
+  margin: 34px 15px 33px 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline__content {
@@ -1325,7 +1326,6 @@ img {
 }
 .order__illustration {
   max-width: 200px;
-  max-height: 220px;
   margin-top: 50px;
 }
 @media screen and (min-width: 1400px) {
@@ -1346,7 +1346,7 @@ img {
 }
 .order__title {
   margin: 0;
-  margin-top: 40px;
+  margin-top: 36px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -1365,7 +1365,7 @@ img {
   text-align: left;
 }
 .order__form {
-  margin-top: 79px;
+  margin-top: 77px;
 }
 @media screen and (min-width: 1400px) {
   .order__form {
@@ -1393,7 +1393,9 @@ img {
   color: #2b292d;
 }
 .order__button {
-  margin-top: 12px;
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
 }
 @media screen and (max-width: 1399px) {
   .order__button {
