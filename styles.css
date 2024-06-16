@@ -15,7 +15,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
-    margin-right: 13px;
+    margin-right: 15px;
     height: 60px;
     width: 60px;
   }
@@ -27,7 +27,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__text {
-    margin: 0;
+    margin: 4px 2px 5px 0;
     height: 51px;
   }
 }
@@ -573,7 +573,7 @@ img {
 @media screen and (min-width: 1400px) {
   .navigation {
     display: block;
-    margin: 9px 75px 30px auto;
+    margin: 7px 75px 30px auto;
   }
 }
 .navigation__item {
