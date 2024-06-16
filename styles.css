@@ -81,7 +81,6 @@
 .logo-vertical__image {
   width: 60px;
   height: 60px;
-  margin-right: -5px;
 }
 @media screen and (min-width: 1400px) {
   .logo-vertical__image {
@@ -373,7 +372,7 @@ img {
 }
 
 .about-company {
-  margin-top: 26px;
+  margin-top: 40px;
 }
 @media screen and (min-width: 1400px) {
   .about-company {
@@ -1342,7 +1341,7 @@ img {
 }
 .order__illustration {
   max-width: 200px;
-  margin-top: 54px;
+  margin-top: 50px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
