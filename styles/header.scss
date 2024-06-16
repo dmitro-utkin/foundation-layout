@@ -7,11 +7,11 @@
   padding-left: 15px;
 
   @include for-large-up {
-    max-width: 1140px;
-    max-height: 62px;
     margin: auto;
     margin-top: 39px;
-    padding-left: 4px;
+    padding: 0;
+    max-width: 1140px;
+    max-height: 62px;
     display: flex;
     background-color: #f3c6bd;
   }
