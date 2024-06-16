@@ -5,6 +5,7 @@
 @media screen and (min-width: 1400px) {
   .logo {
     max-height: 60px;
+    margin-bottom: 0;
   }
 }
 .logo__image {
@@ -14,8 +15,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
-    margin-right: 12px;
-    margin-left: -2px;
+    margin-right: 13px;
     height: 60px;
     width: 60px;
   }
@@ -24,6 +24,11 @@
   margin: 12px 2px 5px 0;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1400px) {
+  .logo__text {
+    margin: 5px 0;
+  }
 }
 .logo__name {
   font-size: 20px;
@@ -1291,7 +1296,6 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 72px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1305,9 +1309,7 @@ img {
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 100%;
-    max-height: 100%;
-    margin-right: 122px;
-    padding: 0 45px;
+    margin: 40px 122px 0 0;
   }
 }
 .order__details {
@@ -1315,6 +1317,7 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .order__details {
+    margin-top: 106px;
     max-width: 555px;
   }
 }
@@ -1323,12 +1326,13 @@ img {
   margin-top: 36px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 48px;
   letter-spacing: -0.25px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
     height: 48px;
+    margin: 0;
   }
 }
 .order__text {
@@ -1343,7 +1347,8 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .order__form {
-    padding-top: 26px;
+    margin: 0;
+    margin-top: 26px;
     display: flex;
   }
 }
@@ -1378,9 +1383,11 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin-top: 0;
+    margin: 0;
     margin-left: 10px;
+    margin-top: -4px;
     flex-shrink: 0;
+    line-height: 13px;
   }
 }
 .order__terms {
