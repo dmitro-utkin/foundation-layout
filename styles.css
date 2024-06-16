@@ -27,7 +27,8 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__text {
-    margin: 2px 0;
+    margin: 0;
+    height: 51px;
   }
 }
 .logo__name {

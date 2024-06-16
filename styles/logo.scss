@@ -25,7 +25,8 @@
     flex-direction: column;
 
     @include for-large-up {
-      margin: 2px 0;
+      margin: 0;
+      height: 51px;
     }
   }
 
