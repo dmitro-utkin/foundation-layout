@@ -13,6 +13,8 @@
     margin-right: 8px;
 
     @include for-large-up {
+      margin: 0;
+      padding: 0;
       margin-right: 15px;
       height: 60px;
       width: 60px;
