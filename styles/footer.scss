@@ -38,6 +38,10 @@
 
 .about-company {
   margin-top: 26px;
+
+  @include for-large-up {
+    margin-top: 26px;
+  }
 }
 
 .footer-navigation {

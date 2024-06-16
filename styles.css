@@ -353,6 +353,11 @@ img {
 .about-company {
   margin-top: 26px;
 }
+@media screen and (min-width: 1400px) {
+  .about-company {
+    margin-top: 26px;
+  }
+}
 
 .footer-navigation {
   margin: 0;
@@ -507,7 +512,7 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .header__button {
-    margin-bottom: 11px;
+    margin-bottom: 14px;
     display: block;
   }
 }
@@ -1304,12 +1309,12 @@ img {
 }
 .order__illustration {
   max-width: 200px;
-  margin-top: 50px;
+  margin-top: 54px;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
     max-width: 100%;
-    margin: 40px 122px 0 0;
+    margin: 45px 122px 0 0;
   }
 }
 .order__details {
@@ -1326,13 +1331,14 @@ img {
   margin-top: 36px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 40px;
   letter-spacing: -0.25px;
 }
 @media screen and (min-width: 1400px) {
   .order__title {
     height: 48px;
     margin: 0;
+    line-height: 48px;
   }
 }
 .order__text {
@@ -1385,7 +1391,7 @@ img {
   .order__button {
     margin: 0;
     margin-left: 10px;
-    margin-top: -4px;
+    margin-top: -1px;
     flex-shrink: 0;
     line-height: 13px;
   }
