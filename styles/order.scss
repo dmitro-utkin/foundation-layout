@@ -16,6 +16,8 @@
     margin-top: 50px;
 
     @include for-large-up {
+      max-width: 100%;
+      max-height: 100%;
       margin-right: 122px;
       padding: 0 45px;
     }
