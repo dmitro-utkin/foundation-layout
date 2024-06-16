@@ -9,12 +9,17 @@
   }
 }
 .logo__image {
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 53px;
+  margin-right: 8px;
 }
 @media screen and (min-width: 1400px) {
   .logo__image {
+    margin: 0;
+    padding: 0;
     margin-right: 15px;
+    height: 60px;
+    width: 60px;
   }
 }
 .logo__text {
@@ -149,6 +154,8 @@
 
 img {
   max-width: 100%;
+  overflow: clip;
+  overflow-clip-margin: content-box;
 }
 
 .about {

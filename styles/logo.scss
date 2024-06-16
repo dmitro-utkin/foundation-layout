@@ -8,15 +8,16 @@
   }
 
   &__image {
-    height: 60px;
-    width: 60px;
+    height: 48px;
+    width: 53px;
+    margin-right: 8px;
 
     @include for-large-up {
-      // margin: 0;
-      // padding: 0;
+      margin: 0;
+      padding: 0;
       margin-right: 15px;
-      // height: 60px;
-      // width: 60px;
+      height: 60px;
+      width: 60px;
     }
   }
 
