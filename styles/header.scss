@@ -20,7 +20,7 @@
     display: none;
 
     @include for-large-up {
-      margin-bottom: 20px;
+      margin-bottom: 11px;
       display: block;
     }
   }
@@ -50,7 +50,7 @@
 
   @include for-large-up {
     display: block;
-    margin: 2px 75px 30px auto;
+    margin: 9px 75px 30px auto;
   }
 
   &__item {

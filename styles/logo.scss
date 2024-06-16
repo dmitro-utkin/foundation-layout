@@ -8,7 +8,7 @@
   &__image {
     height: 48px;
     width: 48px;
-    margin-right: 13px;
+    margin-right: 15px;
     
     @include for-large-up {
       margin-right: 12px;
@@ -19,7 +19,7 @@
   }
 
   &__text {
-    margin: 2px 2px 5px 0;
+    margin: 12px 2px 5px 0;
     display: flex;
     flex-direction: column;
   }
