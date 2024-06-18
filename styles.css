@@ -366,7 +366,7 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .footer__line {
-    margin-top: 42px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 1399px) {
@@ -450,11 +450,6 @@ img {
   color: #2b292d;
   margin: 0;
 }
-@media screen and (min-width: 1400px) {
-  .nav-links__title {
-    margin-top: 41px;
-  }
-}
 .nav-links__list {
   list-style-type: none;
   line-height: 30px;
@@ -506,11 +501,13 @@ img {
 .social-links {
   margin-left: 0;
   margin-top: 33px;
+  padding-bottom: 23px;
 }
 @media screen and (min-width: 1400px) {
   .social-links {
     margin-top: 0;
     margin-left: auto;
+    padding: 0;
   }
 }
 .social-links__item {
@@ -518,7 +515,6 @@ img {
 }
 @media screen and (min-width: 1400px) {
   .social-links__item {
-    width: 21px;
     height: 16px;
     margin: 0 0 0 12px;
   }
