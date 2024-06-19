@@ -13,7 +13,7 @@
 
   &__image {
     height: 48px;
-    width: 53px;
+    width: 48px;
     margin-right: 8px;
 
     @include for-large-up {
@@ -69,8 +69,6 @@
     }
   }
 }
-
-/* Footer Mobile */
 
 .logo-vertical {
   margin: 0;
