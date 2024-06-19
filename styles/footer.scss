@@ -28,12 +28,6 @@
       margin-top: 0;
     }
   }
-
-  .logo {
-    @include for-large-down {
-      display: none;
-    }
-  }
 }
 
 .about-company {

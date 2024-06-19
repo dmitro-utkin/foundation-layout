@@ -7,6 +7,10 @@
     margin: 0;
   }
 
+  @include for-large-down {
+    display: flex;
+  }
+
   &__image {
     height: 48px;
     width: 53px;
@@ -59,12 +63,10 @@
     @include for-large-down {
       display: none;
     }
-  }
-}
 
-.logo-footer {
-  @include for-large-up {
-    margin-top: 41px;
+    @include for-large-up {
+      margin-top: 41px;
+    }
   }
 }
 
@@ -98,6 +100,7 @@
     text-align: center;
     margin-top: 20px;
   }
+
   &__description {
     font-size: 18px;
     line-height: 25px;
