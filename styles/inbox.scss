@@ -94,12 +94,13 @@
       padding: 30px 30px 26px 30px;
     }
   }
+}
 
-  &__worker {
-    display: flex;
-  }
+.review-worker {
+  display: flex;
+  margin-bottom: 28px;
 
-  &__worker-avatar {
+  &__avatar {
     height: 40px;
     margin: 2px 11px 18px 20px;
 
@@ -108,7 +109,7 @@
     }
   }
 
-  &__about-worker {
+  &__worker {
     max-width: 199px;
     font-size: 16px;
     line-height: 22px;
@@ -120,7 +121,7 @@
     }
   }
 
-  &__about-worker-profession {
+  &__profession {
     margin: 0;
   }
 }

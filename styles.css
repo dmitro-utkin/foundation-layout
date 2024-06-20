@@ -854,19 +854,21 @@ button {
     padding: 30px 30px 26px 30px;
   }
 }
-.review__worker {
+
+.review-worker {
   display: flex;
+  margin-bottom: 28px;
 }
-.review__worker-avatar {
+.review-worker__avatar {
   height: 40px;
   margin: 2px 11px 18px 20px;
 }
 @media screen and (min-width: 1400px) {
-  .review__worker-avatar {
+  .review-worker__avatar {
     margin: 2px 11px 18px 29px;
   }
 }
-.review__about-worker {
+.review-worker__worker {
   max-width: 199px;
   font-size: 16px;
   line-height: 22px;
@@ -874,11 +876,11 @@ button {
   padding-bottom: 28px;
 }
 @media screen and (min-width: 1400px) {
-  .review__about-worker {
+  .review-worker__worker {
     max-width: 100%;
   }
 }
-.review__about-worker-profession {
+.review-worker__profession {
   margin: 0;
 }
 
