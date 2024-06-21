@@ -1,6 +1,6 @@
 ### Project: foundation-layout
 
-### [Site link](https://dmitro-utkin.github.io/foundation-layout/)
+### [Site link](https://dmitro-utkin.github.io/gromcode_foundation-layout-website/)
 
 ### The tech stack is:
 
